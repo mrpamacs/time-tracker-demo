@@ -87,7 +87,7 @@ class TimeTracker extends Component
     }
 
     private function getTracking(){
-        return $this->selectedProject?->trackings()->hasStarted()->first();
+        return $this->selectedProject?->trackings()->loggedUser()->hasStarted()->first();
     }
 
     public function updateElapsedTime()
