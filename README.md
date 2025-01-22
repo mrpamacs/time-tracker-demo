@@ -2,9 +2,11 @@
 
 Futtatandó parancsok:
 - composer install
-- .env dataok bállítása (adatbázis hozzáférések)
+- .env adatok bállítása (adatbázis hozzáférések, APP_URL)
 - php artisan migrate
 - php artisan db:seed
+- npm install
+- npm run dev
 
 A belépéshez a test@example.com / password használhatóak.
 
