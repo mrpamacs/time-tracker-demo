@@ -2,6 +2,7 @@
 
 Futtatandó parancsok:
 - composer install
+- .env dataok bállítása (adatbázis hozzáférések)
 - php artisan migrate
 - php artisan db:seed
 
